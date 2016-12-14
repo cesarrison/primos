@@ -5,7 +5,7 @@
 
 int num1,i,a;
 
-a=0; */Esta variable se utiliza para contar los divisores del número introducido, se inicializa a 0*/
+a=0; //Esta variable se utiliza para contar los divisores del número introducido, se inicializa a 0
 
 printf("Introduce un numero: ");
 scanf("%d",&num1);
@@ -17,7 +17,7 @@ for(i=1;i<=num1;i++)
 }
 
 
-if(a==2); /*Si al final del bucle, a vale 2, el número es primo, porque tiene solamente 2 divisores.
+if(a==2); //Si al final del bucle, a vale 2, el número es primo, porque tiene solamente 2 divisores.
 {
     printf("El número es primo");
 }
